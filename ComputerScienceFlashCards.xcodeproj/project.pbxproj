@@ -7,12 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED708B5D1E685FE800BAD488 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED708B5C1E685FE800BAD488 /* AnswerViewController.swift */; };
 		EDE272C21E650955003EDCD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE272C11E650955003EDCD2 /* AppDelegate.swift */; };
 		EDE272C41E650955003EDCD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE272C31E650955003EDCD2 /* ViewController.swift */; };
 		EDE272C71E650955003EDCD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE272C51E650955003EDCD2 /* Main.storyboard */; };
 		EDE272C91E650955003EDCD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE272C81E650955003EDCD2 /* Assets.xcassets */; };
 		EDE272CC1E650955003EDCD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE272CA1E650955003EDCD2 /* LaunchScreen.storyboard */; };
 		EDE272D71E650955003EDCD2 /* ComputerScienceFlashCardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE272D61E650955003EDCD2 /* ComputerScienceFlashCardsTests.swift */; };
+		EDE272E21E650CC8003EDCD2 /* QuestionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE272E11E650CC8003EDCD2 /* QuestionsViewController.swift */; };
+		EDE272E41E650DB4003EDCD2 /* QuestionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE272E31E650DB4003EDCD2 /* QuestionCell.swift */; };
+		EDE272E61E653C6E003EDCD2 /* QuestionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDE272E51E653C6E003EDCD2 /* QuestionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED708B5C1E685FE800BAD488 /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 		EDE272BE1E650955003EDCD2 /* ComputerScienceFlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComputerScienceFlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE272C11E650955003EDCD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDE272C31E650955003EDCD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +41,9 @@
 		EDE272D21E650955003EDCD2 /* ComputerScienceFlashCardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComputerScienceFlashCardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE272D61E650955003EDCD2 /* ComputerScienceFlashCardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComputerScienceFlashCardsTests.swift; sourceTree = "<group>"; };
 		EDE272D81E650955003EDCD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE272E11E650CC8003EDCD2 /* QuestionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionsViewController.swift; sourceTree = "<group>"; };
+		EDE272E31E650DB4003EDCD2 /* QuestionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuestionCell.swift; sourceTree = "<group>"; };
+		EDE272E51E653C6E003EDCD2 /* QuestionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 				EDE272C81E650955003EDCD2 /* Assets.xcassets */,
 				EDE272CA1E650955003EDCD2 /* LaunchScreen.storyboard */,
 				EDE272CD1E650955003EDCD2 /* Info.plist */,
+				EDE272E11E650CC8003EDCD2 /* QuestionsViewController.swift */,
+				EDE272E31E650DB4003EDCD2 /* QuestionCell.swift */,
+				EDE272E51E653C6E003EDCD2 /* QuestionCell.xib */,
+				ED708B5C1E685FE800BAD488 /* AnswerViewController.swift */,
 			);
 			path = ComputerScienceFlashCards;
 			sourceTree = "<group>";
@@ -182,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDE272CC1E650955003EDCD2 /* LaunchScreen.storyboard in Resources */,
+				EDE272E61E653C6E003EDCD2 /* QuestionCell.xib in Resources */,
 				EDE272C91E650955003EDCD2 /* Assets.xcassets in Resources */,
 				EDE272C71E650955003EDCD2 /* Main.storyboard in Resources */,
 			);
@@ -202,6 +215,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDE272C41E650955003EDCD2 /* ViewController.swift in Sources */,
+				EDE272E41E650DB4003EDCD2 /* QuestionCell.swift in Sources */,
+				ED708B5D1E685FE800BAD488 /* AnswerViewController.swift in Sources */,
+				EDE272E21E650CC8003EDCD2 /* QuestionsViewController.swift in Sources */,
 				EDE272C21E650955003EDCD2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +428,7 @@
 				EDE272DD1E650955003EDCD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EDE272DE1E650955003EDCD2 /* Build configuration list for PBXNativeTarget "ComputerScienceFlashCardsTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +437,7 @@
 				EDE272E01E650955003EDCD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
