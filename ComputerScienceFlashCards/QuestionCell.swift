@@ -9,9 +9,12 @@
 import UIKit
 
 class QuestionCell: UITableViewCell {
-    
+
+    @IBOutlet weak var questionLabel: UILabel!
+
     override func awakeFromNib() {
         print("Cell Working!")
+        print("Label is \(questionLabel)")
     }
     
 }
