@@ -74,17 +74,22 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="85"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="qSC-Sd-UVM" id="Ycp-9h-5lf">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="84.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hello hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6b-Pg-CPl">
-                                            <rect key="frame" x="147" y="32" width="80" height="21"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello hello" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6b-Pg-CPl">
+                                            <rect key="frame" x="16" y="16" width="343" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="trailing" secondItem="g6b-Pg-CPl" secondAttribute="trailing" constant="16" id="1oU-5z-YNC"/>
+                                        <constraint firstItem="g6b-Pg-CPl" firstAttribute="top" secondItem="Ycp-9h-5lf" secondAttribute="top" constant="16" id="8h6-jo-6aH"/>
+                                        <constraint firstItem="g6b-Pg-CPl" firstAttribute="leading" secondItem="Ycp-9h-5lf" secondAttribute="leading" constant="16" id="msO-H0-J2o"/>
+                                        <constraint firstAttribute="bottom" relation="lessThanOrEqual" secondItem="g6b-Pg-CPl" secondAttribute="bottom" constant="55.5" id="nzf-sN-k2t"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="questionLabel" destination="g6b-Pg-CPl" id="Q5S-nf-2Ev"/>

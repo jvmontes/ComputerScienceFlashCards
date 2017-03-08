@@ -10,13 +10,18 @@ import UIKit
 
 class QuestionsViewController: UITableViewController {
     
+    private let questions: [String] = [
+        "What is Computer Science?",
+        "What is Pseudo-code?"
+    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "QuestionCell", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "QuestionCell", for: indexPath) as! QuestionCell
+        cell.questionLabel.text = questions[indexPath.row]
         return cell
     }
     
