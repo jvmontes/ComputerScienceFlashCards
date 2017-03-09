@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -94,7 +93,6 @@
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="questionLabel" destination="g6b-Pg-CPl" id="Q5S-nf-2Ev"/>
-                                    <segue destination="U6s-hw-tRb" kind="showDetail" action="showViewController:sender:" id="YbM-le-XP1"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -107,41 +105,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7vY-n2-mJe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1092" y="136.28185907046478"/>
-        </scene>
-        <!--Answer View Controller-->
-        <scene sceneID="JbE-yd-vcT">
-            <objects>
-                <viewController id="U6s-hw-tRb" customClass="AnswerViewController" customModule="ComputerScienceFlashCards" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="DRu-TS-DaN"/>
-                        <viewControllerLayoutGuide type="bottom" id="9WS-94-jLo"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="h4y-az-REK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detail Text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e05-ep-98G">
-                                <rect key="frame" x="16" y="71" width="343" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="e05-ep-98G" firstAttribute="top" secondItem="h4y-az-REK" secondAttribute="topMargin" constant="71" id="FlR-wS-z5W"/>
-                            <constraint firstItem="e05-ep-98G" firstAttribute="leading" secondItem="h4y-az-REK" secondAttribute="leading" constant="16" id="ai9-D0-dRw"/>
-                            <constraint firstAttribute="bottomMargin" relation="lessThanOrEqual" secondItem="e05-ep-98G" secondAttribute="bottom" constant="575" id="hYA-LD-EoL"/>
-                            <constraint firstAttribute="trailing" secondItem="e05-ep-98G" secondAttribute="trailing" constant="16" id="xJL-gj-F1u"/>
-                        </constraints>
-                    </view>
-                    <connections>
-                        <outlet property="answerLabel" destination="e05-ep-98G" id="05t-hP-DEA"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="DxM-QD-iaz" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1893.5999999999999" y="135.38230884557723"/>
         </scene>
     </scenes>
 </document>

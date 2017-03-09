@@ -12,5 +12,17 @@ class AnswerViewController: UIViewController {
     
     @IBOutlet weak var answerLabel: UILabel!
     
+    var questionSet: QuestionSet?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        guard let answer = self.questionSet?.answer else {
+            print("Something went wrong!")
+            return
+        }
+        
+        self.answerLabel.text = answer
+    }
+    
 }
 
