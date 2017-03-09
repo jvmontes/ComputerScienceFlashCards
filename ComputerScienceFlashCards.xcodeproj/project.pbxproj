@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED5B22911E70FA58000FBCD9 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5B22901E70FA58000FBCD9 /* AnswerViewController.swift */; };
 		EDE272C21E650955003EDCD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE272C11E650955003EDCD2 /* AppDelegate.swift */; };
 		EDE272C41E650955003EDCD2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE272C31E650955003EDCD2 /* ViewController.swift */; };
 		EDE272C71E650955003EDCD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE272C51E650955003EDCD2 /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED5B22901E70FA58000FBCD9 /* AnswerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 		EDE272BE1E650955003EDCD2 /* ComputerScienceFlashCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComputerScienceFlashCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE272C11E650955003EDCD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDE272C31E650955003EDCD2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 				EDE272CD1E650955003EDCD2 /* Info.plist */,
 				EDE272E11E650CC8003EDCD2 /* QuestionsViewController.swift */,
 				EDE272E31E650DB4003EDCD2 /* QuestionCell.swift */,
+				ED5B22901E70FA58000FBCD9 /* AnswerViewController.swift */,
 			);
 			path = ComputerScienceFlashCards;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			files = (
 				EDE272C41E650955003EDCD2 /* ViewController.swift in Sources */,
 				EDE272E41E650DB4003EDCD2 /* QuestionCell.swift in Sources */,
+				ED5B22911E70FA58000FBCD9 /* AnswerViewController.swift in Sources */,
 				EDE272E21E650CC8003EDCD2 /* QuestionsViewController.swift in Sources */,
 				EDE272C21E650955003EDCD2 /* AppDelegate.swift in Sources */,
 			);
